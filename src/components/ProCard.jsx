@@ -7,7 +7,7 @@ const ProCard = ({ data }) => {
     return (
         <div className='flex flex-col m-2 p-5 w-60 lg:w-72 border-2 bg-white mx-auto sm:m-2 rounded-lg shadow-xl'>
             <div>
-                <img className="h-52 overflow-hidden border mx-auto" src={imageUrl} />
+                <img className="h-52 overflow-hidden mx-auto" src={imageUrl} />
             </div>
 
             <div className="grow">
