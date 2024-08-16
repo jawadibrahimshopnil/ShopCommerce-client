@@ -11,14 +11,17 @@ const Products = () => {
     const [productsCount, setProductsCount] = useState(40);
     const [products, setProducts] = useState([]);
 
-    axios.get(`${import.meta.env.VITE_SERVERURL}/products`)
-    .then(({data})=>{
-        setProducts(data)
-        console.log(data);
-    })
+
+
+
 
     useEffect(() => {
-        
+        axios.get(`${import.meta.env.VITE_SERVERURL}/products`)
+            .then(({ data }) => {
+                setProducts(data)
+                console.log(data);
+            })
+
         // set page count
         if (productsCount) {
             const pageCount = Math.ceil(productsCount / size);
@@ -42,7 +45,7 @@ const Products = () => {
         }
     }
     const handleNextPage = () => {
-        if (currentPage < pages.length-1) {
+        if (currentPage < pages.length - 1) {
             setCurrentPage(currentPage + 1)
         }
     }
@@ -97,7 +100,7 @@ const Products = () => {
                     </button>
 
                     {
-                        pages.map((page)=><button key={page} onClick={()=>setCurrentPage(page)} className={` px-3 py-1 ${page === currentPage ? "SSBtn" : "SSBtnOutline"}  border rounded shadow-md`}>{page+1}</button>)
+                        pages.map((page) => <button key={page} onClick={() => setCurrentPage(page)} className={` px-3 py-1 ${page === currentPage ? "SSBtn" : "SSBtnOutline"}  border rounded shadow-md`}>{page + 1}</button>)
                     }
 
                     <button onClick={handleNextPage} className="SSBtnOutline border rounded-md shadow-md ">

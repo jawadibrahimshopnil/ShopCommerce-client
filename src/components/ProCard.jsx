@@ -18,13 +18,15 @@ const ProCard = ({ data }) => {
 
             <div className="my-3">
                 <table className="w-full">
-                    <thead>
+                    <tbody>
                         <tr>
                             <th className="border-2 border-l-0 p-2 text-left font-semibold">Brand</th>
                             <td className="border-2 border-r-0 p-2">{brand}</td>
                         </tr>
-                    </thead>
-                    <tbody>
+                        <tr>
+                            <th className="border-2 border-l-0 p-2 text-left font-semibold">Date</th>
+                            <td className="border-2 border-r-0 p-2">date</td>
+                        </tr>
                         <tr>
                             <th className="border-2 border-l-0 p-2 text-left font-semibold w-1/2">Category</th>
                             <td className="border-2 border-r-0 p-2">{category}</td>

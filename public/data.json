@@ -6,7 +6,8 @@
         "price": 4990,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/headphone/soundpeats/space/space-01-228x228.webp",
         "rating": 3,
-        "description": "123 Hrs Ultra Long Battery Life,Driver: 40mm Dynamic Driver,Bluetooth 5.3, connect 2 devices,Active noise cancellation up to 35dB"
+        "description": "123 Hrs Ultra Long Battery Life,Driver: 40mm Dynamic Driver,Bluetooth 5.3, connect 2 devices,Active noise cancellation up to 35dB",
+        "date": "2019-08-23"
     },
     {
         "name": "Thunderobot ML201 Wireless Gaming Mouse",
@@ -15,7 +16,8 @@
         "price": 2400,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/mouse/thunderobot/ml201/ml201-01%20(1)-228x228.webp",
         "rating": 1,
-        "description": "Connection type: Wireless,Number of buttons: 6,Optical Resolution (Max.): 2400 DPI ,Maximum USB bus polling rate: 250 Hz"
+        "description": "Connection type: Wireless,Number of buttons: 6,Optical Resolution (Max.): 2400 DPI ,Maximum USB bus polling rate: 250 Hz",
+        "date": "2021-12-09"
     },
     {
         "name": "Thunderobot Thor S10 Pro RGB 2.0 Channel Dual Mode Bluetooth Speaker ",
@@ -24,7 +26,8 @@
         "price": 6900,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/speaker/thunderobot/thor-s10-pro/thor-s10-pro-01-228x228.webp",
         "rating": 1,
-        "description": "Connectivity: BT + 3.5mm + USB-A,Frequency Range: 20Hz – 20KHz,Power: 7W x2 (typ), 14W x2 (max),Sensitivity: 87 dB, Impedance: 4Ω"
+        "description": "Connectivity: BT + 3.5mm + USB-A,Frequency Range: 20Hz – 20KHz,Power: 7W x2 (typ), 14W x2 (max),Sensitivity: 87 dB, Impedance: 4Ω",
+        "date": "2021-10-23"
     },
     {
         "name": "Thunderobot Thor S10 RGB 2.0 Channel Dual Mode Bluetooth Speaker ",
@@ -33,7 +36,8 @@
         "price": 5900,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/speaker/thunderobot/thor-s10/thor-s10-01-228x228.webp",
         "rating": 4,
-        "description": "Frequency Range: 20Hz – 20KHz,Power: 2.2W x2 (typ), 3.2W x2 (max),Sensitivity: 80 dB, Impedance: 4Ω,Connectivity: BT + 3.5mm + USB-A"
+        "description": "Frequency Range: 20Hz – 20KHz,Power: 2.2W x2 (typ), 3.2W x2 (max),Sensitivity: 80 dB, Impedance: 4Ω,Connectivity: BT + 3.5mm + USB-A",
+        "date": "2024-06-09"
     },
     {
         "name": "Logitech Ultimate Ears Boom 3 Portable Bluetooth Speaker ",
@@ -42,34 +46,38 @@
         "price": 17500,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/speaker/logitech/boom-3/boom-3-01-228x228.webp",
         "rating": 2,
-        "description": "Frequency response: 90Hz - 20kHz,Impedance: 4Ωx2 ,15 Hours of Battery Life,IP67 Waterproof Rating"
+        "description": "Frequency response: 90Hz - 20kHz,Impedance: 4Ωx2 ,15 Hours of Battery Life,IP67 Waterproof Rating",
+        "date": "2022-11-09"
     },
     {
-        "name": "EKSA E1000 WT ENC Wireless Gaming Headphone",
+        "name": "Baseus E1000 WT ENC Wireless Gaming Headphone",
         "brand": "Baseus",
         "category": "Headphone",
         "price": 4400,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/headset/eksa/e1000-wt/e1000-wt-01-228x228.webp",
         "rating": 4,
-        "description": "True 2.4 GHz Gaming-Grade Wireless,Less Than 30 ms Ultra-Low Latency,Plug and Play EKSA 7.1 SoundBase,Up to 36 Hrs Extended Battery Life"
+        "description": "True 2.4 GHz Gaming-Grade Wireless,Less Than 30 ms Ultra-Low Latency,Plug and Play EKSA 7.1 SoundBase,Up to 36 Hrs Extended Battery Life",
+        "date": "2021-08-01"
     },
     {
-        "name": "EKSA E1000 V2 RGB Wired Gaming Headphone",
+        "name": "Baseus E1000 V2 RGB Wired Gaming Headphone",
         "brand": "Baseus",
         "category": "Headphone",
         "price": 3700,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/headset/eksa/e1000-v2/e1000-v2-01-228x228.webp",
         "rating": 3,
-        "description": "Dual-Port USB-A & USB-C Connectivity,Dynamic RGB Lighting Options,7.1 Surround Sound,On-Ear Volume, Mute & RGB"
+        "description": "Dual-Port USB-A & USB-C Connectivity,Dynamic RGB Lighting Options,7.1 Surround Sound,On-Ear Volume, Mute & RGB",
+        "date": "2023-02-21"
     },
     {
-        "name": "EKSA E4 AirComfy Noise Cancelling Headphone",
+        "name": "Baseus E4 AirComfy Noise Cancelling Headphone",
         "brand": "Baseus",
         "category": "Headphone",
         "price": 3100,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/headset/eksa/e4-/e4-01-228x228.webp",
         "rating": 3,
-        "description": "EKSA Dual Chamber Drivers,Custom-Tuned 50 mm Drivers,One Headset for All Devices,High Purity OCC Audio Cable"
+        "description": "EKSA Dual Chamber Drivers,Custom-Tuned 50 mm Drivers,One Headset for All Devices,High Purity OCC Audio Cable",
+        "date": "2021-11-27"
     },
     {
         "name": "Oraimo BoomPop 2 OHP-610 Over-Ear Wireless Headphone",
@@ -78,25 +86,28 @@
         "price": 2500,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/headphone/oraimo/boompop-2/boompop-2-01-228x228.webp",
         "rating": 2,
-        "description": "Bluetooth Version: 5.2,Lightweight and Flat-Fold Design,Mic & AUX Input Support,Type-C Charging"
+        "description": "Bluetooth Version: 5.2,Lightweight and Flat-Fold Design,Mic & AUX Input Support,Type-C Charging",
+        "date": "2022-03-15"
     },
     {
-        "name": "Anker Soundcore H30i On-Ear Bluetooth Wireless Headphones",
+        "name": "Optoma Soundcore H30i On-Ear Bluetooth Wireless Headphones",
         "brand": "Optoma",
         "category": "Headphone",
         "price": 3100,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/headphone/anker/soundcore-h30i/soundcore-h30i-01-228x228.webp",
         "rating": 3,
-        "description": "Battery Life: 70-Hour Battery,Driver: 40mm Oversized Driver,Bluetooth 5.3 Technology,Ultra-lightweight Design ; Soundcore App Customization"
+        "description": "Battery Life: 70-Hour Battery,Driver: 40mm Oversized Driver,Bluetooth 5.3 Technology,Ultra-lightweight Design ; Soundcore App Customization",
+        "date": "2024-07-13"
     },
     {
-        "name": "Anker Soundcore Glow Mini Portable Bluetooth Speaker",
+        "name": "Optoma Soundcore Glow Mini Portable Bluetooth Speaker",
         "brand": "Optoma",
         "category": "Speaker",
         "price": 3861,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/speaker/anker/soundcore-glow-mini/soundcore-glow-mini-01-228x228.webp",
         "rating": 4,
-        "description": "Customizable LED Light Show,Up to 12 Hours of Playback Time,Waterproof Construction,Customize Sound & Lights with Mobile App"
+        "description": "Customizable LED Light Show,Up to 12 Hours of Playback Time,Waterproof Construction,Customize Sound & Lights with Mobile App",
+        "date": "2022-12-30"
     },
     {
         "name": "Edifier R1280DBs Bluetooth Bookshelf Speaker",
@@ -105,25 +116,28 @@
         "price": 12500,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/speaker/edifier/r1280dbs/r1280dbs-002-228x228.jpg",
         "rating": 2,
-        "description": "Input: LINE IN 1, LINE IN 2, Optical, Coaxial, Bluetooth,Î¦13mm tweeter unit + 4-inch mid-woofer,Power Output: R/L: 21W+21W RMS,Bluetooth 5.0"
+        "description": "Input: LINE IN 1, LINE IN 2, Optical, Coaxial, Bluetooth,Î¦13mm tweeter unit + 4-inch mid-woofer,Power Output: R/L: 21W+21W RMS,Bluetooth 5.0",
+        "date": "2024-02-02"
     },
     {
-        "name": "AKG C214 Professional Large-diaphragm Condenser Microphone",
+        "name": "Oraimo C214 Professional Large-diaphragm Condenser Microphone",
         "brand": "Oraimo",
         "category": "Microphone",
         "price": 53000,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/microphone/akg/c214/c214-01-228x228.webp",
         "rating": 3,
-        "description": "Audio Frequency: 20 - 20000 Hz,Bass cut filter: 160 Hz,Signal Noise: 81 dB-A,Electrical impedance 200 Ohms"
+        "description": "Audio Frequency: 20 - 20000 Hz,Bass cut filter: 160 Hz,Signal Noise: 81 dB-A,Electrical impedance 200 Ohms",
+        "date": "2023-12-13"
     },
     {
-        "name": "Audio Technica ATH-M50x DS Professional Monitor Headphone",
+        "name": "Rapoo Technica ATH-M50x DS Professional Monitor Headphone",
         "brand": "Rapoo",
         "category": "Headphone",
         "price": 25000,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/headphone/audio-technica/ath-m50x-ds/ath-m50x-ds-01-228x228.webp",
         "rating": 2,
-        "description": "Driver size: 45mm,Frequency response: 15 - 28,000 Hz,Impedance: 38 ohms,90° swiveling earcups for easy, one-ear monitoring"
+        "description": "Driver size: 45mm,Frequency response: 15 - 28,000 Hz,Impedance: 38 ohms,90° swiveling earcups for easy, one-ear monitoring",
+        "date": "2019-08-28"
     },
     {
         "name": "Vention TGESB Type-C  5-in-1 Multifunctional Docking Station",
@@ -132,7 +146,8 @@
         "price": 2035,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/hub/vention/tgesb/tgesb-01-228x228.webp",
         "rating": 2,
-        "description": "5-in-1 Hub,Resolution:  4K 30Hz (1x HDMI),Data transfer rates:  Upto 5Gbps (USB 3.0),Output Power: 100W PD (Max) (Type-C)"
+        "description": "5-in-1 Hub,Resolution:  4K 30Hz (1x HDMI),Data transfer rates:  Upto 5Gbps (USB 3.0),Output Power: 100W PD (Max) (Type-C)",
+        "date": "2023-09-07"
     },
     {
         "name": "Vention TGFSB USB 3.0  5-in-1 Multifunctional Docking Station",
@@ -141,7 +156,8 @@
         "price": 2090,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/hub/vention/tgfsb/tgfsb-01-228x228.webp",
         "rating": 3,
-        "description": "5-in-1 Hub,Data transfer rates:  Upto 5Gbps (USB 3.0),Network Input: RJ45 ( Up to1000mbps),Input ports: USB 3.0 Male, Tri USB 3.0, Type-C & LAN Female"
+        "description": "5-in-1 Hub,Data transfer rates:  Upto 5Gbps (USB 3.0),Network Input: RJ45 ( Up to1000mbps),Input ports: USB 3.0 Male, Tri USB 3.0, Type-C & LAN Female",
+        "date": "2022-05-04"
     },
     {
         "name": "Logitech Rally Mic Pod 10 Meter Extension Cable",
@@ -150,7 +166,8 @@
         "price": 29000,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/cable/logitech/rally-mic-pod-10-meter/rally-mic-pod-10-meter-01-228x228.webp",
         "rating": 2,
-        "description": "Connect Mic Pod to Table or Display Hubs,Accommodates Larger Tables,Works with Rally / Bar / Bar Mini / Plus,Cable Clip Included"
+        "description": "Connect Mic Pod to Table or Display Hubs,Accommodates Larger Tables,Works with Rally / Bar / Bar Mini / Plus,Cable Clip Included",
+        "date": "2020-09-30"
     },
     {
         "name": "Logitech C930E Full HD Video Conferencing Webcam",
@@ -159,7 +176,8 @@
         "price": 15000,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/webcam/logitech/c930e/c930e-webcam-228x228.jpg",
         "rating": 3,
-        "description": "Full HD 1080p video calling,Zoom to 4X in 1080p,Autofocus,External privacy shutter"
+        "description": "Full HD 1080p video calling,Zoom to 4X in 1080p,Autofocus,External privacy shutter",
+        "date": "2020-11-18"
     },
     {
         "name": "Jabra Evolve2 65 MS DUO  Bluetooth & USB Type A Head Set Black",
@@ -168,7 +186,8 @@
         "price": 25700,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/headset/jabra/evolve2-65-usb-a-ms/evolve2-65-usb-a-ms-01-228x228.jpg",
         "rating": 4,
-        "description": "Up to 37 Hours of Battery Life,Optimized for Microsoft Teams,3 Integrated Microphones, 40mm Drivers,Flexible Boom Mic with Auto Mute, USB Type-A"
+        "description": "Up to 37 Hours of Battery Life,Optimized for Microsoft Teams,3 Integrated Microphones, 40mm Drivers,Flexible Boom Mic with Auto Mute, USB Type-A",
+        "date": "2020-01-12"
     },
     {
         "name": "JABRA BIZ 1500 Duo (Dual Ear) USB Headphone Black",
@@ -177,7 +196,8 @@
         "price": 6650,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/headphone/jabra/biz-1500-duo/biz-1500-duo-228x228.jpg",
         "rating": 4,
-        "description": "Foam ear cushions,Crystal Clear Sound,Jabra Spin Boom-arm,Simple Call Management"
+        "description": "Foam ear cushions,Crystal Clear Sound,Jabra Spin Boom-arm,Simple Call Management",
+        "date": "2023-12-02"
     },
     {
         "name": "Logitech Strong SuperSpeed 10 Gbps USB A to USB Type C 25M Cable",
@@ -186,7 +206,8 @@
         "price": 70000,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/cable/logitech/strong/strong-01-228x228.webp",
         "rating": 1,
-        "description": "USB 3.2 Gen 2 active optical cable,USB Type A (male) to USB Type C (male),Throughput: SuperSpeed USB 10 Gbps,Crush load: 1000 kg"
+        "description": "USB 3.2 Gen 2 active optical cable,USB Type A (male) to USB Type C (male),Throughput: SuperSpeed USB 10 Gbps,Crush load: 1000 kg",
+        "date": "2022-02-19"
     },
     {
         "name": "Jabra Evolve 30 MS DUO Dual Ear USB & 3.5mm Noise Cancelling Head Phone Black",
@@ -195,7 +216,8 @@
         "price": 5900,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/accessories/earphone/jabra/evolve-30/evolve-30-1-228x228.jpg",
         "rating": 3,
-        "description": "Flexible connectivity,Manage calls easily,Plug-and-play connectivity"
+        "description": "Flexible connectivity,Manage calls easily,Plug-and-play connectivity",
+        "date": "2022-04-17"
     },
     {
         "name": "Jabra Evolve2 55 USB-C MS Stereo Wireless Headset",
@@ -204,7 +226,8 @@
         "price": 22500,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/headphone/jabra/evolve2-55/evolve2-55-228x228.webp",
         "rating": 4,
-        "description": "Driver Unit: 28mm,Built-in microphone\t,Active noise-cancellation (ANC)\t,Sound Mode: Stereo / Mono"
+        "description": "Driver Unit: 28mm,Built-in microphone\t,Active noise-cancellation (ANC)\t,Sound Mode: Stereo / Mono",
+        "date": "2021-12-11"
     },
     {
         "name": "Logitech Strong SuperSpeed 10 Gbps USB A to USB Type C 10M Cable",
@@ -213,7 +236,8 @@
         "price": 40000,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/cable/logitech/strong/strong-01-228x228.webp",
         "rating": 1,
-        "description": "USB 3.2 Gen 2 active optical cable,USB Type A (male) to USB Type C (male),Throughput: SuperSpeed USB 10 Gbps,Crush load: 1000 kg"
+        "description": "USB 3.2 Gen 2 active optical cable,USB Type A (male) to USB Type C (male),Throughput: SuperSpeed USB 10 Gbps,Crush load: 1000 kg",
+        "date": "2021-02-02"
     },
     {
         "name": "Edifier MP260 Portable Bluetooth Speaker with Alarm Clock",
@@ -222,7 +246,8 @@
         "price": 7000,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/speaker/edifier/mp260/mp260-brown-01-228x228.jpg",
         "rating": 3,
-        "description": "Clock, Alarm; AUX, USB, and micro-SD inputs,LED Screen for audio mode and Time display,5200 mAh large-capacity battery,Multi-function buttons"
+        "description": "Clock, Alarm; AUX, USB, and micro-SD inputs,LED Screen for audio mode and Time display,5200 mAh large-capacity battery,Multi-function buttons",
+        "date": "2022-10-13"
     },
     {
         "name": "Magpie MG-WC05NC3 5.0 MP Privacy Shutter Webcam",
@@ -231,7 +256,8 @@
         "price": 4500,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/webcam/magpie/mg-wc05nc3/mg-wc05nc3-02-228x228.webp",
         "rating": 4,
-        "description": "Interface Type: USB 2.0,Image Sensor: 5.0 MP,Security: Privacy Shutter,Features: Autofocus, Built-in Microphone"
+        "description": "Interface Type: USB 2.0,Image Sensor: 5.0 MP,Security: Privacy Shutter,Features: Autofocus, Built-in Microphone",
+        "date": "2023-04-12"
     },
     {
         "name": "Havit H655BT ANC Noise Cancellation Low Latency Bluetooth Headphone",
@@ -240,7 +266,8 @@
         "price": 3450,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/headphone/havit/h655bt/h655bt-01-228x228.webp",
         "rating": 3,
-        "description": "Bluetooth version: V5.3,Headphone battery: 700mAh,Play Time：76H(50%vol)/69H(50% vol with ANC ON),Hybrid Active noise cancellation"
+        "description": "Bluetooth version: V5.3,Headphone battery: 700mAh,Play Time：76H(50%vol)/69H(50% vol with ANC ON),Hybrid Active noise cancellation",
+        "date": "2024-03-12"
     },
     {
         "name": "Microlab TMN9-BT 2:1 Speaker",
@@ -249,7 +276,8 @@
         "price": 6500,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/speaker/microlab/tmn-9bt/tmn-9bt-228x228.png",
         "rating": 2,
-        "description": "2.1 stereo Bluetooth System,Sensitivity 108 dB Â± 3 dB,frequency range\t30 Hz -20 kHz,Signal to noise ratio > 80 dB"
+        "description": "2.1 stereo Bluetooth System,Sensitivity 108 dB Â± 3 dB,frequency range\t30 Hz -20 kHz,Signal to noise ratio > 80 dB",
+        "date": "2023-07-09"
     },
     {
         "name": "Edifier A3-8S Portable Bluetooth Trolley Speaker",
@@ -258,7 +286,8 @@
         "price": 18500,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/speaker/edifier/a3-8s/a3-8s-01-228x228.webp",
         "rating": 4,
-        "description": "Multiple inputs including Bluetooth, AUX line-in, and TF card,DSP digital audio processing,Multiple microphone input forms,Indoor and outdoor modes"
+        "description": "Multiple inputs including Bluetooth, AUX line-in, and TF card,DSP digital audio processing,Multiple microphone input forms,Indoor and outdoor modes",
+        "date": "2021-07-22"
     },
     {
         "name": "Optoma SC26B 4K Ultra HD USB Webcam",
@@ -267,7 +296,8 @@
         "price": 23000,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/office-equipment/conference-camera/optoma/sc26b/sc26b-228x228.webp",
         "rating": 3,
-        "description": "4k Ultra Hd Video at 30fps,120-Degree Ultra-Wide Angle,Advanced Ai Technologies ,Dual Channel Microphone"
+        "description": "4k Ultra Hd Video at 30fps,120-Degree Ultra-Wide Angle,Advanced Ai Technologies ,Dual Channel Microphone",
+        "date": "2023-07-29"
     },
     {
         "name": "Oraimo Rover OBS-53D RGB Portable Wireless Speaker",
@@ -276,7 +306,8 @@
         "price": 3341,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/speaker/oraimo/rover/rover-obs-53d-01-228x228.webp",
         "rating": 5,
-        "description": "50mm (x2) Customized Drivers 66mm (x2) Bass Radiators,Audio Output: 6W*2,Hand-held design and IPX5 Waterproof,Battery Capacity: 2400mAh"
+        "description": "50mm (x2) Customized Drivers 66mm (x2) Bass Radiators,Audio Output: 6W*2,Hand-held design and IPX5 Waterproof,Battery Capacity: 2400mAh",
+        "date": "2022-09-18"
     },
     {
         "name": "Oraimo Boom OBS-75D Dynamic Light Effects Portable Wireless Speaker",
@@ -285,7 +316,8 @@
         "price": 5213,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/speaker/oraimo/boom/boom-obs-75d-01-228x228.webp",
         "rating": 2,
-        "description": "Speaker Output: 30W,Dynamic Party Light Effects,IPX5 Waterproof,Battery Capacity: 3600mAh"
+        "description": "Speaker Output: 30W,Dynamic Party Light Effects,IPX5 Waterproof,Battery Capacity: 3600mAh",
+        "date": "2023-12-18"
     },
     {
         "name": "Edifier M203BT 2:1 Bluetooth Multimedia Speaker",
@@ -294,7 +326,8 @@
         "price": 6500,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/speaker/edifier/m2O3/edifier-m203bt-228x228.webp",
         "rating": 3,
-        "description": "131mm large-caliber bass unit,68 watts peak power output with 5’’ woofer,Universal 100V-240V power supply,Total watts(peak) 68W"
+        "description": "131mm large-caliber bass unit,68 watts peak power output with 5’’ woofer,Universal 100V-240V power supply,Total watts(peak) 68W",
+        "date": "2024-02-17"
     },
     {
         "name": "RODE SC16 Type-C to Right-Angle Type-C Cable",
@@ -303,7 +336,8 @@
         "price": 3350,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/cable/rode/sc16/sc16-01-228x228.webp",
         "rating": 3,
-        "description": "Interface: Type-C to Type-C,High-quality USB-C to USB-C Patch Cable,Length: 300mm,Shielded Design"
+        "description": "Interface: Type-C to Type-C,High-quality USB-C to USB-C Patch Cable,Length: 300mm,Shielded Design",
+        "date": "2022-05-27"
     },
     {
         "name": "RODE SC15 USB Type-C to Lightning Cable",
@@ -312,7 +346,8 @@
         "price": 3200,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/cable/rode/sc15/sc15-01-228x228.webp",
         "rating": 4,
-        "description": "High-quality Lightning Cable,Junction Box for Cable Management,Length: 300mm,Shielded Design"
+        "description": "High-quality Lightning Cable,Junction Box for Cable Management,Length: 300mm,Shielded Design",
+        "date": "2020-06-07"
     },
     {
         "name": "Rapoo 9350S Multi-Mode Wireless Keyboard and Mouse Combo",
@@ -321,7 +356,8 @@
         "price": 4950,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/keyboard/Rapoo/9350s/9350s-01-228x228.webp",
         "rating": 1,
-        "description": "Ultra-slim 4.5 mm design,Adjustable 2400 DPI optical mouse,Compatible with Windows and Mac,Multi-Mode Connectivity: Bluetooth 4.0, 5.0, and 2.4 GHz"
+        "description": "Ultra-slim 4.5 mm design,Adjustable 2400 DPI optical mouse,Compatible with Windows and Mac,Multi-Mode Connectivity: Bluetooth 4.0, 5.0, and 2.4 GHz",
+        "date": "2022-10-05"
     },
     {
         "name": "Rapoo 9010M Multi-Mode Wireless Keyboard and Mouse Combo",
@@ -330,7 +366,8 @@
         "price": 3150,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/keyboard/Rapoo/9010m/9010m-01-228x228.webp",
         "rating": 4,
-        "description": "Multi-mode wireless: Bluetooth 4.0, 5.0, and 2.4 GHz,Compact Keyboard with 78 scissor keys,Ultra-slim 3.9 mm design,Adjustable 2400 DPI optical mouse"
+        "description": "Multi-mode wireless: Bluetooth 4.0, 5.0, and 2.4 GHz,Compact Keyboard with 78 scissor keys,Ultra-slim 3.9 mm design,Adjustable 2400 DPI optical mouse",
+        "date": "2022-12-05"
     },
     {
         "name": "Rapoo 9050S Multi-Mode Wireless Keyboard and Mouse Combo",
@@ -339,7 +376,8 @@
         "price": 4450,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/keyboard/Rapoo/9050s/9050s-01-228x228.webp",
         "rating": 2,
-        "description": "Multi-Mode Connectivity: Bluetooth 4.0, 3.0, and 2.4 GHz,Compact Keyboard with scissor keys,Ultra-slim 4.5 mm design,Adjustable 2400 DPI optical mouse"
+        "description": "Multi-Mode Connectivity: Bluetooth 4.0, 3.0, and 2.4 GHz,Compact Keyboard with scissor keys,Ultra-slim 4.5 mm design,Adjustable 2400 DPI optical mouse",
+        "date": "2023-12-08"
     },
     {
         "name": "Baseus AeQur V2 Wireless Bluetooth Speaker",
@@ -348,7 +386,8 @@
         "price": 2933,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/speaker/baseus/aequr-v2/aequr-v2-02-228x228.webp",
         "rating": 1,
-        "description": "Wireless operation range: 10m,Bluetooth version: V5.0, Frequency response: 110Hz-20kHz ,Battery: 1800mAh/6.66Wh"
+        "description": "Wireless operation range: 10m,Bluetooth version: V5.0, Frequency response: 110Hz-20kHz ,Battery: 1800mAh/6.66Wh",
+        "date": "2020-05-17"
     },
     {
         "name": "A4Tech Pk-910P 720P High-HD Webcam",
@@ -357,15 +396,7 @@
         "price": 2400,
         "imageUrl": "https://www.startech.com.bd/image/cache/catalog/webcam/a4-tech/pk-910p/a4tech-pk-910p-hd-webcam-228x228.jpg",
         "rating": 4,
-        "description": "Image sensor: High HD 720P ,Resolution: 1280*720 Pixels,Frame Rate: Up to 30fps,Viewing Angle: 68 Degrees"
-    },
-    {
-        "name": "Logitech G813 LIGHTSYNC RGB Clicky Mechanical Gaming Keyboard",
-        "brand": "Logitech",
-        "category": "Keyboard",
-        "price": 17500,
-        "imageUrl": "https://www.startech.com.bd/image/cache/catalog/keyboard/logitech/g813/g813-01-228x228.webp",
-        "rating": 4,
-        "description": "Switch Type: GL Clicky Switch,Backlit: LIGHTSYNC RGB Lighting,Ultra Thin Ergonomic Design,Programmable Micro G Keys"
+        "description": "Image sensor: High HD 720P ,Resolution: 1280*720 Pixels,Frame Rate: Up to 30fps,Viewing Angle: 68 Degrees",
+        "date": "2020-06-20"
     }
 ]
