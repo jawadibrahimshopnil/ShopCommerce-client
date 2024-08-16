@@ -1,16 +1,24 @@
 import { useEffect, useState } from "react";
 import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 import ProCard from './../components/ProCard';
+import axios from "axios";
 
 const Products = () => {
     const [currentPage, setCurrentPage] = useState(0);
+    const [pages, setPages] = useState([0]);
     const size = 10;
 
-    const productsCount = 40;
-    // const productsResponse = axios.get(`/biodatas/card?page=${currentPage}&size=${size}`);
-    const [pages, setPages] = useState([0]);
+    const [productsCount, setProductsCount] = useState(40);
+    const [products, setProducts] = useState([]);
+
+    axios.get(`${import.meta.env.VITE_SERVERURL}/products`)
+    .then(({data})=>{
+        console.log(data);
+    })
 
     useEffect(() => {
+        
+        // set page count
         if (productsCount) {
             const pageCount = Math.ceil(productsCount / size);
             setPages([...Array(pageCount).keys()]);
