@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 import ProCard from './../components/ProCard';
 import axios from "axios";
+import FilterBar from "../components/FilterBar";
 
 const Products = () => {
     const [currentPage, setCurrentPage] = useState(0);
@@ -52,39 +53,7 @@ const Products = () => {
 
     return (
         <div className="md:flex">
-            <div className="md:w-1/4 border shadow-md md:">
-                <form onSubmit={handleFilter} className="my-4 p-4">
-                    <h3 className="text-center text-2xl mb-2">Filters</h3>
-                    <div className="mb-2">
-                        <label>Type:</label>
-                        <select
-                            name="type"
-                            className="w-full px-4 py-2 border rounded-md border-gray-400"
-                        >
-                            <option value="">Choose gender…</option>
-                            <option value="Male">Male</option>
-                            <option value="Female">Female</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label>Division:</label>
-                        <select
-                            name="division"
-                            className="w-full px-4 py-2 border rounded-md border-gray-400"
-                        >
-                            <option value="">Choose Division...</option>
-                            <option value="Dhaka">Dhaka</option>
-                            <option value="Chattogram">Chattogram</option>
-                            <option value="Rangpur">Rangpur</option>
-                            <option value="Barisal">Barisal</option>
-                            <option value="Khulna">Khulna</option>
-                            <option value="Maymansign">Maymansign</option>
-                            <option value="Sylhet">Sylhet</option>
-                        </select>
-                    </div>
-                    <button className="SSBtn my-2 w-full font-semibold text-lg">Apply</button>
-                </form>
-            </div>
+            <FilterBar handleFilter={handleFilter}></FilterBar>
 
             <div className="md:w-3/4 mx-auto">
                 <div className="p-6 grid sm:grid-cols-2 lg:grid-cols-3">

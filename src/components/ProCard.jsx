@@ -3,7 +3,7 @@ import '@smastrom/react-rating/style.css'
 import { Link } from "react-router-dom";
 
 const ProCard = ({ data }) => {
-    const { name, imageUrl, price, description, rating, brand, category } = data;
+    const { name, imageUrl, price, description, rating, brand, category, date } = data;
     return (
         <div className='flex flex-col m-2 p-5 w-60 lg:w-72 border-2 bg-white mx-auto sm:m-2 rounded-lg shadow-xl'>
             <div>
@@ -25,7 +25,7 @@ const ProCard = ({ data }) => {
                         </tr>
                         <tr>
                             <th className="border-2 border-l-0 p-2 text-left font-semibold">Date</th>
-                            <td className="border-2 border-r-0 p-2">date</td>
+                            <td className="border-2 border-r-0 p-2">{date}</td>
                         </tr>
                         <tr>
                             <th className="border-2 border-l-0 p-2 text-left font-semibold w-1/2">Category</th>
