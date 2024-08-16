@@ -13,6 +13,7 @@ const Products = () => {
 
     axios.get(`${import.meta.env.VITE_SERVERURL}/products`)
     .then(({data})=>{
+        setProducts(data)
         console.log(data);
     })
 
@@ -83,9 +84,9 @@ const Products = () => {
             </div>
 
             <div className="md:w-3/4 mx-auto">
-                <div className="p-6 grid place-items-center sm:grid-cols-2 lg:grid-cols-3">
+                <div className="p-6 grid sm:grid-cols-2 lg:grid-cols-3">
                     {
-                        Array(7).fill().map((_, idx) => <ProCard key={idx}></ProCard>)
+                        products.map((product, idx) => <ProCard data={product} key={idx}></ProCard>)
                     }
 
                 </div>
