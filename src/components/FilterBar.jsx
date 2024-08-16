@@ -1,10 +1,9 @@
-import { useState } from "react";
 
 const FilterBar = ({ handleFilter }) => {
     
     return (
         <div className="md:w-1/4 border shadow-md md:">
-            <form onSubmit={handleFilter} className="my-4 p-4">
+            <form onChange={handleFilter} className="my-4 p-4">
                 <h3 className="text-center text-2xl mb-2">Filters</h3>
 
                 <div className="space-y-2">
