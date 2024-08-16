@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .SSBtn {
+    @apply px-3 py-2 rounded-md bg-orange-500 text-white;
+  }
+  .SSBtnOutline {
+    @apply border border-orange-500 px-3 py-2 rounded-md hover:SSBtn text-center;
+  }
+  .SSIcon {
+    @apply w-6 h-6;
+  }
+  .tempDesign {
+    @apply my-6 h-40 border-2 grid place-items-center;
+  }
+}
+
+.active {
+  background-color: #f97316 !important;
+  color: white !important;
+}
