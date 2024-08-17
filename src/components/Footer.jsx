@@ -23,7 +23,7 @@ const Footer = () => {
                 </nav>
                 <nav>
                     <h6 className="footer-title">Categories</h6>
-                    <Link to={`/`} className="link link-hover">Card Making</Link>
+                    <Link to={`/`} className="link link-hover">Headphones</Link>
                     <Link to={`/`} className="link link-hover">Paper Origami</Link>
                     <Link to={`/`} className="link link-hover">Glass Dying</Link>
                     <Link to={`/`} className="link link-hover">ScrapBooking</Link>

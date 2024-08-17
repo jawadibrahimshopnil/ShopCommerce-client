@@ -4,7 +4,6 @@ import ProCard from './../components/ProCard';
 import axios from "axios";
 import FilterBar from "../components/FilterBar";
 import queryString from 'query-string';
-import { useLoaderData } from "react-router-dom";
 
 const Products = () => {
     
@@ -59,6 +58,7 @@ const Products = () => {
             }
             return newData
         })
+        setCurrentPage(0)
     }
 
     // handle pagination

@@ -13,7 +13,6 @@ const router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                loader: async()=> await fetch(`${import.meta.env.VITE_SERVERURL}/productscount`),
                 element: <Products></Products>,
             },
             {
