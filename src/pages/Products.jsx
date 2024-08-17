@@ -10,7 +10,7 @@ const Products = () => {
     const [pages, setPages] = useState([0]);
     const [size, setSize] = useState(9);
 
-    const [productsCount, setProductsCount] = useState(40);
+    const [productsCount, setProductsCount] = useState(0);
     const [products, setProducts] = useState([]);
 
     const [filterData, setFilterData] = useState({})
@@ -18,21 +18,18 @@ const Products = () => {
 
     useEffect(() => {
         const query = queryString.stringify(filterData);
-        console.log(size);
         
-        console.log(`${import.meta.env.VITE_SERVERURL}/products?${query}&page=${currentPage}&size=${size}`);
         // get products
         axios.get(`${import.meta.env.VITE_SERVERURL}/products?${query}&page=${currentPage}&size=${size}`)
             .then(({ data }) => {
-                setProducts(data)
                 console.log(data);
+                setProducts(data);
             })
 
-            // get products count
+        // get products count
         axios.get(`${import.meta.env.VITE_SERVERURL}/productscount?${query}`)
             .then(({ data }) => {
                 setProductsCount(data.count)
-                console.log(data);
             })
 
         // set page count
@@ -48,33 +45,17 @@ const Products = () => {
 
         console.log(e);
         const { name, value } = e.target;
-        // const brand = form.brand.value;
-        // const category = form.category.value;
-        // const minPrice = form.minPrice.value;
-        // const maxPrice = form.maxPrice.value;
-        // const searchTxt = form.searchTxt.value;
-
-        // const filterData = {
-        //     brand,
-        //     category,
-        //     minPrice,
-        //     maxPrice,
-        //     searchTxt,
-        // }
 
         setFilterData(prevData => {
             const newData = {
                 ...prevData,
                 [name]: value
             }
-            console.log(newData);
             return newData
         })
-
-
-        // console.log(filterData);
     }
 
+    // handle pagination
     const handlePrevPage = () => {
         if (currentPage > 0) {
             setCurrentPage(currentPage - 1)
@@ -92,9 +73,11 @@ const Products = () => {
 
     return (
         <div className="md:flex">
+            {/* sidebar */}
             <FilterBar handleFilter={handleFilter}></FilterBar>
 
             <div className="md:w-3/4 mx-auto">
+                {/* products */}
                 <div className="p-6 grid sm:grid-cols-2 lg:grid-cols-3">
                     {
                         products.map((product, idx) => <ProCard data={product} key={idx}></ProCard>)
@@ -102,6 +85,7 @@ const Products = () => {
 
                 </div>
 
+                {/* pagination btn */}
                 <div className="flex justify-center my-4 space-x-1 text-gray-800">
                     <button onClick={handlePrevPage} className="SSBtnOutline border rounded-md shadow-md ">
                         <MdArrowBackIos className="w-4 h-4" />

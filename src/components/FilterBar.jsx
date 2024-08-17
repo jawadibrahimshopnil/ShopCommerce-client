@@ -1,18 +1,20 @@
 
 const FilterBar = ({ handleFilter }) => {
-    
+
     return (
         <div className="md:w-1/4 border shadow-md md:">
             <form onChange={handleFilter} className="my-4 p-4">
-                <h3 className="text-center text-2xl mb-2">Filters</h3>
 
-                <div className="space-y-2">
-                    <div>
-                        <label className="flex items-center gap-2 input input-bordered">
-                            <input name="searchTxt" type="text" className="grow" placeholder="Search by name" />
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4 opacity-70"><path fillRule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clipRule="evenodd"></path></svg>
-                        </label>
-                    </div>
+            <h3 className="text-center text-2xl mb-2">Search</h3>
+                <div className="mb-2">
+                    <label className="flex items-center gap-2 input input-bordered">
+                        <input name="searchTxt" type="text" className="grow" placeholder="Search by name" />
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4 opacity-70"><path fillRule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clipRule="evenodd"></path></svg>
+                    </label>
+                </div>
+
+                <h3 className="text-center text-2xl">Filters</h3>
+                <div className="space-y-2 mb-2">
                     <div>
                         <label>Brand:</label>
                         <select
@@ -57,14 +59,27 @@ const FilterBar = ({ handleFilter }) => {
                         <label>Price range:</label>
                         <br />
                         <input type="number" placeholder="min"
-                        name="minPrice" className="input input-bordered w-1/2 max-w-xs"/>
+                            name="minPrice" className="input input-bordered w-1/2 max-w-xs" />
                         <input type="number" placeholder="max"
-                        name="maxPrice"
-                        className="input input-bordered w-1/2 max-w-xs" />
+                            name="maxPrice"
+                            className="input input-bordered w-1/2 max-w-xs" />
                     </div>
 
-                    <button className="SSBtn my-2 w-full font-semibold text-lg">Apply</button>
+                    {/* <button className="SSBtn my-2 w-full font-semibold text-lg">Apply</button> */}
                 </div>
+
+                <h3 className="text-center text-2xl mb-2">Sort</h3>
+                <select name="sortPrice" className="w-full px-4 py-2 border rounded-md border-gray-400">
+                    <option value="">by Price</option>
+                    <option value="lowToHigh">Low to high</option>
+                    <option value="highToLow">High to low</option>
+                </select>
+                <select name="sortDate" className="w-full px-4 py-2 border rounded-md border-gray-400">
+                    <option value="">by Date</option>
+                    <option value="newFirst">Newest first</option>
+                    <option value="oldFirst">Oldest first</option>
+                </select>
+
             </form>
         </div>
     );
