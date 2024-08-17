@@ -1,9 +1,9 @@
 import { useContext, useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
-import { AuthContext } from "../routes/AuthProvider";
 import { updateProfile } from "firebase/auth";
 import { toast } from "react-toastify";
+import { AuthContext } from './../routes/AuthProvider';
 
 const Register = () => {
 
@@ -13,8 +13,15 @@ const Register = () => {
 
     const navigate = useNavigate();
 
-    const handleSubmit = (data) => {
-        const { name, photoUrl, email, password } = data;
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        const form = e.target;
+        
+        const name = form.name.value;
+        const photoUrl = form.photoUrl.value;
+        const email = form.email.value;
+        const password = form.password.value;
 
         createUser(email, password)
             .then(res => {
@@ -31,7 +38,6 @@ const Register = () => {
                 navigate("/")
             })
             .catch(err => console.log(err))
-        console.log(data)
     }
 
     return (

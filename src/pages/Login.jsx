@@ -14,8 +14,13 @@ const Login = () => {
     const navigate = useNavigate();
     const location = useLocation();
 
-    const handleSubmit = (data) => {
-        const { email, password } = data;
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        const form = e.target;
+        
+        const email = form.email.value;
+        const password = form.password.value;
 
         signInUser(email, password)
             .then((res) => {
