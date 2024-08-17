@@ -24,10 +24,10 @@ const Footer = () => {
                 <nav>
                     <h6 className="footer-title">Categories</h6>
                     <Link to={`/`} className="link link-hover">Headphones</Link>
-                    <Link to={`/`} className="link link-hover">Paper Origami</Link>
-                    <Link to={`/`} className="link link-hover">Glass Dying</Link>
-                    <Link to={`/`} className="link link-hover">ScrapBooking</Link>
-                    <Link to={`/`} className="link link-hover">Glass Painting</Link>
+                    <Link to={`/`} className="link link-hover">Mouse</Link>
+                    <Link to={`/`} className="link link-hover">Station</Link>
+                    <Link to={`/`} className="link link-hover">Combo</Link>
+                    <Link to={`/`} className="link link-hover">Webcam</Link>
                 </nav>
                 <nav>
                     <h6 className="footer-title">Connect With Us</h6>
