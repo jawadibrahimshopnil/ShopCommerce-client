@@ -4,13 +4,18 @@ import ProCard from './../components/ProCard';
 import axios from "axios";
 import FilterBar from "../components/FilterBar";
 import queryString from 'query-string';
+import { useLoaderData } from "react-router-dom";
 
 const Products = () => {
+    
     const [currentPage, setCurrentPage] = useState(0);
     const [pages, setPages] = useState([0]);
     const [size, setSize] = useState(9);
 
     const [productsCount, setProductsCount] = useState(0);
+    // const initProductCount = useLoaderData();
+    // setProductsCount(initProductCount);
+
     const [products, setProducts] = useState([]);
 
     const [filterData, setFilterData] = useState({})
@@ -23,21 +28,22 @@ const Products = () => {
         axios.get(`${import.meta.env.VITE_SERVERURL}/products?${query}&page=${currentPage}&size=${size}`)
             .then(({ data }) => {
                 console.log(data);
-                setProducts(data);
-            })
-
-        // get products count
-        axios.get(`${import.meta.env.VITE_SERVERURL}/productscount?${query}`)
-            .then(({ data }) => {
+                setProducts(data.result);
                 setProductsCount(data.count)
             })
+
+        // // get products count
+        // axios.get(`${import.meta.env.VITE_SERVERURL}/productscount?${query}`)
+        //     .then(({ data }) => {
+        //         setProductsCount(data.count)
+        //     })
 
         // set page count
         if (productsCount) {
             const pageCount = Math.ceil(productsCount / size);
             setPages([...Array(pageCount).keys()]);
         }
-    }, [productsCount, size, filterData, currentPage])
+    }, [ productsCount, size, filterData, currentPage])
 
 
     const handleFilter = e => {
